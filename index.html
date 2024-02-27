@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navi">
+<header>Image slider</header>
+    </nav>  
+    <div class="slider-container">
+    <div class="slider">
+      <div class="slide">
+        <img src="image1.jpeg" alt="Image 1">
+        <div class="caption">Food</div>
+      </div>
+      <div class="slide">
+        <img src="image2.jpeg" alt="Image 2">
+        <div class="caption">Nature</div>
+      </div>
+      <div class="slide">
+        <img src="image3.jpeg" alt="Image 3">
+        <div class="caption">Travel</div>
+      </div>
+    </div>
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+    <button class="playPause" onclick="togglePlayPause()">Play/Pause</button>
+  </div>
+
+  <script src="image.js"></script>
+</body>
+</html>
